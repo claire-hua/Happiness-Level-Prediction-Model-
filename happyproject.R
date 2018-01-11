@@ -1,4 +1,4 @@
-projdata=read.table("/Users/mimi/Downloads/projdata.txt", header=TRUE)
+projdata=read.table("projdata.txt", header=TRUE)
 summary(projdata)
 pairs(projdata)
 model1=lm(happy~gender+workhrs+relationship, data=projdata)
